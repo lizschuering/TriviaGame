@@ -1,0 +1,49 @@
+.startGame {
+    display: flex;
+    flex-direction: column;
+}
+
+.gameImage {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.buttonOne, .buttonTwo {
+    display: flex;
+    justify-content: center;
+}
+
+#startButton, #submitButton {
+    margin: 20px;
+    line-height: 70px;
+    width: 200px;
+    font-size: 40px;
+    padding: 2px;
+}
+
+#countDownTimer {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /* border: 2px dotted black; */
+}
+
+.questionHeader {
+    text-align: center;
+}
+
+.questionAnswers {
+    text-align: center;
+}
+
+.correct {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.incorrect, .unanswered {
+    text-align: center;
+    font-size: 40px;
+}
